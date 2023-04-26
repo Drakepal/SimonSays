@@ -26,7 +26,7 @@ class SimonCellType: AppCompatImageView {
         mContext = ctx
     }
 
-    fun settOff() {
+    fun setOff() {
         state = OFF
         setImageDrawable(resources.getDrawable(offImage))
         refreshDrawableState()
@@ -56,6 +56,8 @@ class SimonCellType: AppCompatImageView {
             }
         }
     }
+
+
 
     companion object {
         const val ON = 1
